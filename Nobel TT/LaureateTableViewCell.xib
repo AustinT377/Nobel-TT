@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="laureateCell" rowHeight="142" id="ywB-p6-vwm" customClass="LaureateTableViewCell" customModule="Nobel_TT" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="142"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ywB-p6-vwm" id="33s-q8-Yy5">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="142"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="i97-BK-7az">
+                        <rect key="frame" x="0.0" y="16" width="414" height="110"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAq-hw-ouJ">
+                                <rect key="frame" x="184.5" y="0.0" width="45" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="dmf-4V-2M6">
+                                <rect key="frame" x="16" y="24.5" width="382" height="20.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VqH-07-Not">
+                                        <rect key="frame" x="0.0" y="0.0" width="183" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kbh-4j-ZKH">
+                                        <rect key="frame" x="199" y="0.0" width="183" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="s79-hx-ACm">
+                                <rect key="frame" x="16" y="49" width="382" height="20.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Born: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NaB-zV-D0W">
+                                        <rect key="frame" x="0.0" y="0.0" width="183" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Died:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWx-iD-wDF">
+                                        <rect key="frame" x="199" y="0.0" width="183" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="sVE-Yg-bqv">
+                                <rect key="frame" x="16" y="73.5" width="382" height="20.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Born City" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GzX-p7-8hY">
+                                        <rect key="frame" x="0.0" y="0.0" width="183" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Died City" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mmy-B0-bwu">
+                                        <rect key="frame" x="199" y="0.0" width="183" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="School" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekh-Eg-9Wz">
+                                <rect key="frame" x="181" y="98" width="52.5" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="dmf-4V-2M6" firstAttribute="leading" secondItem="i97-BK-7az" secondAttribute="leading" constant="16" id="Ihd-Zo-PeV"/>
+                            <constraint firstAttribute="trailing" secondItem="sVE-Yg-bqv" secondAttribute="trailing" constant="16" id="KAE-gn-wBt"/>
+                            <constraint firstItem="sVE-Yg-bqv" firstAttribute="leading" secondItem="i97-BK-7az" secondAttribute="leading" constant="16" id="Oso-pl-rDs"/>
+                            <constraint firstItem="s79-hx-ACm" firstAttribute="leading" secondItem="i97-BK-7az" secondAttribute="leading" constant="16" id="XC5-kq-HmW"/>
+                            <constraint firstAttribute="trailing" secondItem="s79-hx-ACm" secondAttribute="trailing" constant="16" id="lNY-1C-biL"/>
+                            <constraint firstAttribute="trailing" secondItem="dmf-4V-2M6" secondAttribute="trailing" constant="16" id="rw4-B8-mMS"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="i97-BK-7az" secondAttribute="trailing" id="OJI-vc-Iz9"/>
+                    <constraint firstItem="i97-BK-7az" firstAttribute="leading" secondItem="33s-q8-Yy5" secondAttribute="leading" id="X6y-pf-Djl"/>
+                    <constraint firstItem="i97-BK-7az" firstAttribute="top" secondItem="33s-q8-Yy5" secondAttribute="top" constant="16" id="k2R-pC-leG"/>
+                    <constraint firstAttribute="bottom" secondItem="i97-BK-7az" secondAttribute="bottom" constant="16" id="saY-XG-QcL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bornCityLabel" destination="GzX-p7-8hY" id="65V-BA-FgI"/>
+                <outlet property="bornYearLabel" destination="NaB-zV-D0W" id="Hfe-Vt-qi5"/>
+                <outlet property="categoryLabel" destination="VqH-07-Not" id="nxB-7P-fOi"/>
+                <outlet property="diedCityLabel" destination="Mmy-B0-bwu" id="8xt-Bx-Jrf"/>
+                <outlet property="diedYearLabel" destination="VWx-iD-wDF" id="oVC-Xa-9Ec"/>
+                <outlet property="nameLabel" destination="QAq-hw-ouJ" id="HNm-XY-Mez"/>
+                <outlet property="schoolLabel" destination="ekh-Eg-9Wz" id="GWX-UJ-m8v"/>
+                <outlet property="yearLabel" destination="Kbh-4j-ZKH" id="fwq-Ee-rNE"/>
+            </connections>
+            <point key="canvasLocation" x="8.6956521739130448" y="85.714285714285708"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D981145825426B1300CE2FE1 /* LaureateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D981145725426B1300CE2FE1 /* LaureateTableViewCell.xib */; };
+		D981145B254270D800CE2FE1 /* LaureateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D981145A254270D800CE2FE1 /* LaureateTableViewCell.swift */; };
 		D9CE62502541102C00DA6673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE624F2541102C00DA6673 /* AppDelegate.swift */; };
 		D9CE62522541102C00DA6673 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE62512541102C00DA6673 /* SceneDelegate.swift */; };
 		D9CE62542541102C00DA6673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE62532541102C00DA6673 /* ViewController.swift */; };
 		D9CE62572541102C00DA6673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CE62552541102C00DA6673 /* Main.storyboard */; };
 		D9CE62592541102D00DA6673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CE62582541102D00DA6673 /* Assets.xcassets */; };
 		D9CE625C2541102D00DA6673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CE625A2541102D00DA6673 /* LaunchScreen.storyboard */; };
+		D9CE62652541110400DA6673 /* nobel-prize-laureates.json in Resources */ = {isa = PBXBuildFile; fileRef = D9CE62642541110400DA6673 /* nobel-prize-laureates.json */; };
+		D9CE626D254111B400DA6673 /* LaureatesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE626C254111B400DA6673 /* LaureatesModel.swift */; };
+		D9CE629725411E3900DA6673 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE629625411E3900DA6673 /* Extensions.swift */; };
+		D9CE629B254120C300DA6673 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE629A254120C300DA6673 /* LocationManager.swift */; };
+		D9CE629F2541C5AB00DA6673 /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE629E2541C5AB00DA6673 /* LoadingIndicatorView.swift */; };
+		D9CE62BF2541D3A700DA6673 /* SelectSpaceTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE62BE2541D3A700DA6673 /* SelectSpaceTimeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D981145725426B1300CE2FE1 /* LaureateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaureateTableViewCell.xib; sourceTree = "<group>"; };
+		D981145A254270D800CE2FE1 /* LaureateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaureateTableViewCell.swift; sourceTree = "<group>"; };
 		D9CE624C2541102C00DA6673 /* Nobel TT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nobel TT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CE624F2541102C00DA6673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9CE62512541102C00DA6673 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,12 @@
 		D9CE62582541102D00DA6673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9CE625B2541102D00DA6673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9CE625D2541102D00DA6673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9CE62642541110400DA6673 /* nobel-prize-laureates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "nobel-prize-laureates.json"; sourceTree = "<group>"; };
+		D9CE626C254111B400DA6673 /* LaureatesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaureatesModel.swift; sourceTree = "<group>"; };
+		D9CE629625411E3900DA6673 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D9CE629A254120C300DA6673 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		D9CE629E2541C5AB00DA6673 /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
+		D9CE62BE2541D3A700DA6673 /* SelectSpaceTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSpaceTimeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +72,21 @@
 		D9CE624E2541102C00DA6673 /* Nobel TT */ = {
 			isa = PBXGroup;
 			children = (
+				D9CE62642541110400DA6673 /* nobel-prize-laureates.json */,
 				D9CE624F2541102C00DA6673 /* AppDelegate.swift */,
 				D9CE62512541102C00DA6673 /* SceneDelegate.swift */,
 				D9CE62532541102C00DA6673 /* ViewController.swift */,
+				D9CE62BE2541D3A700DA6673 /* SelectSpaceTimeViewController.swift */,
 				D9CE62552541102C00DA6673 /* Main.storyboard */,
 				D9CE62582541102D00DA6673 /* Assets.xcassets */,
 				D9CE625A2541102D00DA6673 /* LaunchScreen.storyboard */,
 				D9CE625D2541102D00DA6673 /* Info.plist */,
+				D9CE626C254111B400DA6673 /* LaureatesModel.swift */,
+				D9CE629A254120C300DA6673 /* LocationManager.swift */,
+				D9CE629E2541C5AB00DA6673 /* LoadingIndicatorView.swift */,
+				D9CE629625411E3900DA6673 /* Extensions.swift */,
+				D981145725426B1300CE2FE1 /* LaureateTableViewCell.xib */,
+				D981145A254270D800CE2FE1 /* LaureateTableViewCell.swift */,
 			);
 			path = "Nobel TT";
 			sourceTree = "<group>";
@@ -124,8 +148,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9CE62652541110400DA6673 /* nobel-prize-laureates.json in Resources */,
 				D9CE625C2541102D00DA6673 /* LaunchScreen.storyboard in Resources */,
 				D9CE62592541102D00DA6673 /* Assets.xcassets in Resources */,
+				D981145825426B1300CE2FE1 /* LaureateTableViewCell.xib in Resources */,
 				D9CE62572541102C00DA6673 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9CE62BF2541D3A700DA6673 /* SelectSpaceTimeViewController.swift in Sources */,
+				D981145B254270D800CE2FE1 /* LaureateTableViewCell.swift in Sources */,
+				D9CE629725411E3900DA6673 /* Extensions.swift in Sources */,
 				D9CE62542541102C00DA6673 /* ViewController.swift in Sources */,
+				D9CE629B254120C300DA6673 /* LocationManager.swift in Sources */,
 				D9CE62502541102C00DA6673 /* AppDelegate.swift in Sources */,
+				D9CE629F2541C5AB00DA6673 /* LoadingIndicatorView.swift in Sources */,
+				D9CE626D254111B400DA6673 /* LaureatesModel.swift in Sources */,
 				D9CE62522541102C00DA6673 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Austin.Turner.Nobel-TT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Austin.Turner.Nobel-TT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
